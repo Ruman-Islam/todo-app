@@ -11,7 +11,7 @@ function addItem() {
         <th class="description">${itemInput.value}</th>
         <td>In Progress</td>
         <td>
-            <button class="btn btn-success" onclick="doneDeleteItems(this, 'Done')">Done</button>
+            <button class="btn btn-success" onclick="doneDeleteItems(this, 'Completed')">Done</button>
             <button class="btn btn-danger" onclick="doneDeleteItems(this, 'none')">Delete</button>
             <button class="btn btn-warning" onclick="editItem(this)">Edit</button>
             <input id="edit__input" class="d-none" placeholder="Edit here..">
